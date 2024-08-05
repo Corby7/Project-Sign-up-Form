@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up-Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cover">
+      <div class="banner">
+        <img src="images/odin-lined.png" alt="Logo of The Odin Project" />
+        <h1 class="NorseBold">ODIN</h1>
+      </div>
+      <p>Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+    </div>
+    <div class="content">
+      <div class="part-1">
+        <p>
+          <b>
+            This is not a real online service! You know you need something<br />
+            like this in your life to help you realize your deepest dreams.<br />
+            Sign up <i>now</i> to get started.
+            <br />
+            <br />
+            You <i>know</i> you want to.
+          </b>
+        </p>
+      </div>
+      <div class="part-2">
+        <p><b>Lets do this!</b></p>
+        <form>
+          <div class="form-row-1">
+            <div class="form-field">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-field">
+              <label for="phone-number">Phone Number</label>
+              <input type="text" id="phone-number" name="phone-number" />
+            </div>
+          </div>
+          <div class="form-row-3">
+            <div class="form-field">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+              <small class="error-message">* Passwords do not match</small>
+            </div>
+            <div class="form-field">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="part-3">
+        <button type="submit" class="submit-button">Create Account</button>
+        <span class="login-link">
+          <p>Already have an account?</p>
+          <p id="login-link-green">Log in</p>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
